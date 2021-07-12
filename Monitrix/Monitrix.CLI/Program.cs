@@ -8,7 +8,7 @@ namespace Monitrix.CLI
         static void Main(string[] args)
         {
 
-            var excH = new ExceptionHandlerRegistration(ExceptionHandlerRegistration.HandlingType.SILENT);
+            var excH = new ExceptionHandlerRegistration(ExceptionHandlerRegistration.HandlingType.COUT);
             try
             {
                 throw new SystemException(":");

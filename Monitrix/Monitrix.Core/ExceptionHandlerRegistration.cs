@@ -5,7 +5,7 @@ namespace Monitrix.Core
 {
     public class ExceptionHandlerRegistration
     {
-       public enum HandlingType { SILENT }
+       public enum HandlingType { COUT }
 
         private HandlingType _handlingType;
 
