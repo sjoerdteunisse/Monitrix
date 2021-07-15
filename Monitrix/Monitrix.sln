@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monitrix.CLI", "Monitrix.CLI\Monitrix.CLI.csproj", "{275DC005-FB52-4CE4-967D-2A67FDE082F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitrix.Core", "Monitrix.Core\Monitrix.Core.csproj", "{1D71F5EE-72FD-4F60-9998-074EAC282C6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monitrix.Core", "Monitrix.Core\Monitrix.Core.csproj", "{1D71F5EE-72FD-4F60-9998-074EAC282C6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monitrix.Web.Viewer", "Monitrix.Web.Viewer\Monitrix.Web.Viewer.csproj", "{6885B421-2442-4E7E-B32E-5410A09C8943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitrix.Tests", "Monitrix.Tests\Monitrix.Tests.csproj", "{E030285D-CCD4-4A58-9C29-253A21FD31EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{1D71F5EE-72FD-4F60-9998-074EAC282C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D71F5EE-72FD-4F60-9998-074EAC282C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D71F5EE-72FD-4F60-9998-074EAC282C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6885B421-2442-4E7E-B32E-5410A09C8943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6885B421-2442-4E7E-B32E-5410A09C8943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6885B421-2442-4E7E-B32E-5410A09C8943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6885B421-2442-4E7E-B32E-5410A09C8943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E030285D-CCD4-4A58-9C29-253A21FD31EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E030285D-CCD4-4A58-9C29-253A21FD31EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E030285D-CCD4-4A58-9C29-253A21FD31EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E030285D-CCD4-4A58-9C29-253A21FD31EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

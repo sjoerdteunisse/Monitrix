@@ -21,6 +21,11 @@ namespace Monitrix.Core
             AppDomain.CurrentDomain.FirstChanceException += CurrentDomain_FirstChanceException;
         }
 
+        /// <summary>
+        /// Catch all unhandeld exceptions
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
         {
             if (sender != null)
@@ -31,13 +36,18 @@ namespace Monitrix.Core
             Console.WriteLine(e.ExceptionObject.ToString());
         }
 
+        /// <summary>
+        /// Catch all exceptions 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         static void CurrentDomain_FirstChanceException(object sender, FirstChanceExceptionEventArgs e)
         {
             if (sender != null)
                 Console.WriteLine(sender.ToString());
 
-            Console.WriteLine("An exception occured but was catched");
-            
+            Console.WriteLine("An exception occured");
+
             Console.WriteLine(e.Exception.ToString());
         }
     }

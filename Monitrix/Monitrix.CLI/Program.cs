@@ -9,6 +9,9 @@ namespace Monitrix.CLI
         {
 
             var excH = new ExceptionHandlerRegistration(ExceptionHandlerRegistration.HandlingType.COUT);
+            
+                throw new SystemException(":");
+
             try
             {
                 throw new SystemException(":");
@@ -16,7 +19,6 @@ namespace Monitrix.CLI
             }
             catch (Exception)
             {
-
             }
         }
     }
